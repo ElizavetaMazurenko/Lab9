@@ -1,0 +1,2441 @@
+Started GET "/" for 127.0.0.1 at 2019-01-06 19:41:51 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/liza/.rvm/gems/ruby-2.5.1/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/liza/.rvm/gems/ruby-2.5.1/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (4.4ms)
+Completed 200 OK in 29ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab9" for 127.0.0.1 at 2019-01-06 19:42:04 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/lab9"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/lab9/implict" for 127.0.0.1 at 2019-01-06 19:42:18 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/lab9/implict"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/lab9/implict.json" for 127.0.0.1 at 2019-01-06 19:42:26 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/lab9/implict.json"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/lab9/implict/in.json" for 127.0.0.1 at 2019-01-06 19:42:39 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/lab9/implict/in.json"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/lab9/implict/in.json" for 127.0.0.1 at 2019-01-06 19:42:48 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/lab9/implict/in.json"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/lab9/implict/in" for 127.0.0.1 at 2019-01-06 19:43:09 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/lab9/implict/in"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/lab9/implicit/in" for 127.0.0.1 at 2019-01-06 19:43:21 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/lab9/implicit/in"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/lab9/implicit/in.json" for 127.0.0.1 at 2019-01-06 19:43:37 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/lab9/implicit/in.json"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/lab9/implicit/ajax" for 127.0.0.1 at 2019-01-06 19:44:10 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/lab9/implicit/ajax"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/implicit/ajax" for 127.0.0.1 at 2019-01-06 19:44:23 +0300
+Processing by ImplicitController#ajax as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/implicit_controller.rb:11:in `ajax'
+Started GET "/implicit/in" for 127.0.0.1 at 2019-01-06 19:44:34 +0300
+Processing by ImplicitController#in as HTML
+  Rendering implicit/in.html.erb within layouts/application
+  Rendered implicit/in.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 480ms (Views: 478.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/implicit/ajax?utf8=%E2%9C%93&m=4&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 19:44:44 +0300
+Processing by ImplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"4", "commit"=>"Отправить форму"}
+  Rendering implicit/in.js.erb
+  Rendered implicit/in.js.erb (0.5ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/implicit/ajax?utf8=%E2%9C%93&m=78&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 19:44:49 +0300
+Processing by ImplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"78", "commit"=>"Отправить форму"}
+  Rendering implicit/in.js.erb
+  Rendered implicit/in.js.erb (0.5ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/implicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 19:45:05 +0300
+Processing by ImplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+  Rendering implicit/in.js.erb
+  Rendered implicit/in.js.erb (0.5ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/implicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 19:45:19 +0300
+Processing by ImplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+  Rendering implicit/in.js.erb
+  Rendered implicit/in.js.erb (0.5ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/implicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 19:45:19 +0300
+Processing by ImplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+  Rendering implicit/in.js.erb
+  Rendered implicit/in.js.erb (0.5ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/implicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 19:45:19 +0300
+Processing by ImplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+  Rendering implicit/in.js.erb
+  Rendered implicit/in.js.erb (0.7ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/implicit/ajax?utf8=%E2%9C%93&m=766&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 19:45:23 +0300
+Processing by ImplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"766", "commit"=>"Отправить форму"}
+  Rendering implicit/in.js.erb
+  Rendered implicit/in.js.erb (0.7ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 19:45:51 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=4&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 19:46:12 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"4", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=4&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 19:46:14 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"4", "commit"=>"Отправить форму"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 19:46:17 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6565", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 21:23:19 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:23:21 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6565", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (bad value for range):
+  
+app/controllers/explicit_controller.rb:19:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:23:22 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6565", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (bad value for range):
+  
+app/controllers/explicit_controller.rb:19:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:23:22 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6565", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (bad value for range):
+  
+app/controllers/explicit_controller.rb:19:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:23:23 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6565", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (bad value for range):
+  
+app/controllers/explicit_controller.rb:19:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:23:23 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6565", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (bad value for range):
+  
+app/controllers/explicit_controller.rb:19:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 21:23:45 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:23:47 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6565", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:23:51 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 21:35:12 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:35:14 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (bad value for range):
+  
+app/controllers/explicit_controller.rb:19:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:35:15 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (bad value for range):
+  
+app/controllers/explicit_controller.rb:19:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:35:15 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (bad value for range):
+  
+app/controllers/explicit_controller.rb:19:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:35:15 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (bad value for range):
+  
+app/controllers/explicit_controller.rb:19:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:35:15 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (bad value for range):
+  
+app/controllers/explicit_controller.rb:19:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 21:38:25 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:38:26 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:38:27 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:38:27 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:38:27 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:38:27 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:38:28 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 21:45:53 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 41ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:45:54 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:45:55 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:45:55 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 21:46:06 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:46:07 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:46:07 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:46:08 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:46:08 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:46:08 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 21:46:30 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 29ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:46:37 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:47:51 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=78&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:47:54 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"78", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 21:48:07 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=78&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:48:08 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"78", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=78&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:48:09 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"78", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=78&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:48:09 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"78", "commit"=>"Отправить форму"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/explicit_controller.rb:23:in `+'
+app/controllers/explicit_controller.rb:23:in `reverse_number'
+app/controllers/explicit_controller.rb:9:in `ajax'
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 21:48:26 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=78&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:48:27 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"78", "commit"=>"Отправить форму"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 21:53:30 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=78&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:53:32 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"78", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=100&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:53:44 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"100", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=100&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:53:45 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"100", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=100&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:53:46 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"100", "commit"=>"Отправить форму"}
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=100&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:53:46 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"100", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=100&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:53:46 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"100", "commit"=>"Отправить форму"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 21:53:48 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=100&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:53:50 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"100", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 21:56:14 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=100&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:56:16 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"100", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 21:56:35 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=100&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:56:37 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"100", "commit"=>"Отправить форму"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 21:57:07 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 63ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=100&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:57:09 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"100", "commit"=>"Отправить форму"}
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 21:57:42 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=100&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:57:45 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"100", "commit"=>"Отправить форму"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=7878&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:57:49 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"7878", "commit"=>"Отправить форму"}
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=4343&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:57:54 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"4343", "commit"=>"Отправить форму"}
+Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=98989&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:57:59 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"98989", "commit"=>"Отправить форму"}
+Completed 200 OK in 151ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=98989&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:58:32 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"98989", "commit"=>"Отправить форму"}
+Completed 200 OK in 133ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=56&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 21:58:37 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"56", "commit"=>"Отправить форму"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 22:41:55 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 79ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=56&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:42:02 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"56", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=56&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:42:03 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"56", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=56&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:42:04 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"56", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=56&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:42:04 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"56", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=45&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:42:08 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"45", "commit"=>"Отправить форму"}
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 22:42:32 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=45&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:42:34 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"45", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=45&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:42:34 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"45", "commit"=>"Отправить форму"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=45&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:42:34 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"45", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=45&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:42:35 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"45", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 22:43:15 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 32ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=45&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:43:16 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"45", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:43:19 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:43:20 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3", "commit"=>"Отправить форму"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:43:20 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3", "commit"=>"Отправить форму"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 22:44:09 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:44:10 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:44:10 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:44:11 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:44:11 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:44:11 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:44:14 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:44:15 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:44:15 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 22:44:52 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 44ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:44:53 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 22:46:07 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:46:08 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:46:21 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 22:46:23 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:46:24 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 22:47:19 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:47:21 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 22:47:26 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:47:27 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 11ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:47:32 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:47:32 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 22:47:34 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 22:47:35 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 9ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 23:12:14 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:12:16 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 23:12:36 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 50ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:12:38 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 34ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 23:19:07 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 81ms (Views: 78.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:19:08 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 13ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 23:19:18 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 71ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:19:20 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 21ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:19:20 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 14ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 23:19:49 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:19:50 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:19:54 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 23:19:56 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:19:58 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 23:20:52 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:20:54 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 23:21:08 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:21:09 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 20ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:21:13 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=3565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:21:14 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"3565", "commit"=>"Отправить форму"}
+Completed 200 OK in 14ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=6778&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:21:18 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"6778", "commit"=>"Отправить форму"}
+Completed 200 OK in 19ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=67678687&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:21:25 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"67678687", "commit"=>"Отправить форму"}
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 23:21:33 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.7ms)
+Started GET "/" for 127.0.0.1 at 2019-01-06 23:21:40 +0300
+Completed 200 OK in 7410ms (Views: 7205.3ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (uninitialized constant Lab9Controller):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-06 23:21:46 +0300
+  
+ActionController::RoutingError (uninitialized constant Lab9Controller):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-06 23:21:53 +0300
+  
+ActionController::RoutingError (uninitialized constant Lab9Controller):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-06 23:21:56 +0300
+  
+ActionController::RoutingError (uninitialized constant Lab9Controller):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-06 23:22:05 +0300
+  
+ActionController::RoutingError (uninitialized constant Lab9Controller):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-06 23:22:15 +0300
+  
+ActionController::RoutingError (uninitialized constant Lab9Controller):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-06 23:23:13 +0300
+Completed 200 OK in 200181ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 23:24:45 +0300
+  
+ActionController::RoutingError (uninitialized constant Lab9Controller):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 23:24:45 +0300
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=454&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:24:45 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"454", "commit"=>"Отправить форму"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by ExplicitController#in as HTML
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.0ms)
+  Rendered explicit/in.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 58ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 62ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 23:25:15 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=454&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:25:18 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"454", "commit"=>"Отправить форму"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=4546565&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:25:23 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"4546565", "commit"=>"Отправить форму"}
+Completed 200 OK in 12338ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 23:26:10 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 62ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=45&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:26:14 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"45", "commit"=>"Отправить форму"}
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-06 23:26:24 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 76ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=45&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-06 23:26:26 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"45", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-07 03:30:28 +0300
+  
+ActionController::RoutingError (uninitialized constant Lab9Controller):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 03:30:41 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 308ms (Views: 230.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-07 03:30:44 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"", "commit"=>"Отправить форму"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=676&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-07 03:30:49 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"676", "commit"=>"Отправить форму"}
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 03:31:49 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 65ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=430909&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83" for 127.0.0.1 at 2019-01-07 03:31:56 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"430909", "commit"=>"Отправить форму"}
+Completed 200 OK in 1210ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 03:32:56 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=430909&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 03:32:57 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"430909", "commit"=>"Отправить запрос"}
+Completed 200 OK in 1175ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:16:51 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 71ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=678&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 04:18:33 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"678", "commit"=>"Отправить запрос"}
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 04:19:15 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"", "commit"=>"Отправить запрос"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=40000&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 04:19:39 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"40000", "commit"=>"Отправить запрос"}
+Completed 200 OK in 117ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:21:06 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 31ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:21:30 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 58ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:24:05 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:24:55 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:25:34 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:25:44 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:27:11 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 41ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:29:14 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=4444&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 04:29:32 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"4444", "commit"=>"Отправить запрос"}
+Completed 200 OK in 14ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:29:49 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=4444&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 04:29:59 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"4444", "commit"=>"Отправить запрос"}
+Completed 200 OK in 24ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:30:17 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:32:40 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:33:56 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:34:18 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:35:09 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=4444&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 04:35:12 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"4444", "commit"=>"Отправить запрос"}
+Completed 200 OK in 16ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:38:11 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:41:49 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:42:09 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:47:50 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 40ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=9999&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 04:48:02 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"9999", "commit"=>"Отправить запрос"}
+Completed 200 OK in 93ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 04:48:44 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 64ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 05:04:22 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 31ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 05:04:43 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 05:08:36 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=9999&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 05:08:38 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"9999", "commit"=>"Отправить запрос"}
+Completed 200 OK in 40ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 05:09:06 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 05:16:54 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 05:22:38 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=0909&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 05:22:43 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"0909", "commit"=>"Отправить запрос"}
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=909&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 05:22:52 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"909", "commit"=>"Отправить запрос"}
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=909&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 05:22:53 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"909", "commit"=>"Отправить запрос"}
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=90&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 05:22:57 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"90", "commit"=>"Отправить запрос"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=78978797&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 05:23:05 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"78978797", "commit"=>"Отправить запрос"}
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 05:25:12 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 9013ms (Views: 8712.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=78978&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 05:25:36 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"78978", "commit"=>"Отправить запрос"}
+Completed 200 OK in 418ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=200000&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 05:25:50 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"200000", "commit"=>"Отправить запрос"}
+Completed 200 OK in 1036ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=2000000&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 05:26:06 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"2000000", "commit"=>"Отправить запрос"}
+Completed 200 OK in 11266ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 228474ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=20000000&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 05:28:06 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"20000000", "commit"=>"Отправить запрос"}
+Completed 200 OK in 60112ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/in" for 127.0.0.1 at 2019-01-07 05:45:10 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 478ms (Views: 476.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=090&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 05:45:14 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"090", "commit"=>"Отправить запрос"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-07 05:45:40 +0300
+  
+ActionController::RoutingError (uninitialized constant Lab9Controller):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-07 05:45:56 +0300
+  
+ActionController::RoutingError (uninitialized constant Lab9Controller):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-07 05:46:18 +0300
+  
+ActionController::RoutingError (uninitialized constant Lab9Controller):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-07 05:46:27 +0300
+Processing by ExplicitController#in as HTML
+  Rendering explicit/in.html.erb within layouts/application
+  Rendered explicit/in.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explicit/ajax?utf8=%E2%9C%93&m=90898&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81" for 127.0.0.1 at 2019-01-07 05:46:32 +0300
+Processing by ExplicitController#ajax as JS
+  Parameters: {"utf8"=>"✓", "m"=>"90898", "commit"=>"Отправить запрос"}
+Completed 200 OK in 263ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+

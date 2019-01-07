@@ -1,0 +1,30 @@
+<p  style="font-size: 1.2em; text-align: center; background-color:#2a3979"> Написать программу, определяющую, сколько из чисел в диапазоне
+от 0 до n (n вводится с клавиатуры), сами являясь палиндромами, при
+возведении в квадрат, образуют палиндромы. Например: 22 → 484 . 
+Вывести на печать числа, квадраты и их количество. </p>
+
+<div id="explicit__container" style="font-size: 1.2em; text-align: center; background-color: #7272ff">
+<br>
+  <%= form_with id: 'explicit__form', method: :get, url: explicit_ajax_path do |form| %>
+    <%= form.number_field :m, placeholder: 'Введите число', min: 0 %>
+    <%= form.submit 'Отправить запрос' %>
+  <% end %>
+
+  <br>
+
+  <table border='1' >
+<thead>
+<tr>
+<th >&alefsym; Палиндромы &alefsym;</th>
+<th >&alefsym; Квадраты - палиндромы &alefsym;</th>
+</tr>   
+</thead>
+
+<tbody id="explicit__result">
+
+</tbody>
+
+<tr><td colspan="2" id = "kol" style = "font-weight: bold; color: white;">  </td></tr>
+
+   </table>
+</div>
