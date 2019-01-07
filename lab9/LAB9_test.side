@@ -1,0 +1,114 @@
+{
+  "id": "00b636f4-ac89-4662-87c8-190616261c27",
+  "version": "1.1",
+  "name": "LAB9_test",
+  "url": "http://localhost:3000/explicit/in",
+  "tests": [{
+    "id": "32372c9b-6974-49cf-80dc-b2cb89883d48",
+    "name": "Untitled",
+    "commands": [{
+      "id": "0adb931a-1036-4852-8692-fa7d6724ee98",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/explicit/in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "009884e7-8c97-4b14-aff9-e95a40e0ac9c",
+      "comment": "",
+      "command": "click",
+      "target": "id=m",
+      "targets": [
+        ["id=m", "id"],
+        ["name=m", "name"],
+        ["css=#m", "css"],
+        ["css=#m", "css:finder"],
+        ["xpath=//input[@id='m']", "xpath:attributes"],
+        ["xpath=//form[@id='explicit__form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb3b0871-1303-4dee-86df-b789ef5b0e9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=m",
+      "targets": [
+        ["id=m", "id"],
+        ["name=m", "name"],
+        ["css=#m", "css"],
+        ["css=#m", "css:finder"],
+        ["xpath=//input[@id='m']", "xpath:attributes"],
+        ["xpath=//form[@id='explicit__form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca107250-bbb8-4632-8499-b208abc8849d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=m",
+      "targets": [
+        ["id=m", "id"],
+        ["name=m", "name"],
+        ["css=#m", "css"],
+        ["css=#m", "css:finder"],
+        ["xpath=//input[@id='m']", "xpath:attributes"],
+        ["xpath=//form[@id='explicit__form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b82cd135-4b3a-4219-afb2-4ac9faeaf138",
+      "comment": "",
+      "command": "type",
+      "target": "id=m",
+      "targets": [
+        ["id=m", "id"],
+        ["name=m", "name"],
+        ["css=#m", "css"],
+        ["css=#m", "css:finder"],
+        ["xpath=//input[@id='m']", "xpath:attributes"],
+        ["xpath=//form[@id='explicit__form']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "9999"
+    }, {
+      "id": "ba163693-62a4-44e0-bb67-e99e04a9db0d",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input[name=\"commit\"]", "css"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='explicit__form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1ff3ffb-fe7b-4307-a5d6-c273226a993f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=th",
+      "targets": [
+        ["css=th", "css"],
+        ["css=th:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='explicit__container']/table/thead/tr/th", "xpath:idRelative"],
+        ["xpath=//th", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6e60ab5f-7e7a-45a7-8319-8ef4b6afa80f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["32372c9b-6974-49cf-80dc-b2cb89883d48"]
+  }],
+  "urls": ["http://localhost:3000/explicit/in"],
+  "plugins": []
+}
